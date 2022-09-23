@@ -33,7 +33,7 @@ st.sidebar.info(
 from apps.predict_page import show_predict_page
 
 
-page = st.selectbox("Explore Or Predict", ("Predict", "Explore"))
+#page = st.selectbox("Explore Or Predict", ("Predict", "Explore"))
 
-if page == "Predict":
-    show_predict_page()
+#if page == "Predict":
+show_predict_page()
